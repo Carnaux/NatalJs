@@ -115,7 +115,7 @@ function addPrefabs(){
     logoTeam.rotation.x = Math.PI/2;
     logoTeam.name = "logoTeam";
     logoTeam.position.y = -3.5;
-    logoTeam.position.x = -12;
+    logoTeam.position.x = -10;
     logoTeam.scale.set(0.5,0.5,0.5);
     logoTeam.visible = false;
     scene.add(logoTeam);
@@ -126,7 +126,7 @@ function addPrefabs(){
     logoNatalNet.rotation.x = Math.PI/2;
     logoNatalNet.name = "logoNatalNet";
     scene.add(logoNatalNet);
-    logoNatalNet.position.x = -14;
+    logoNatalNet.position.x = -12;
     logoNatalNet.position.y = -3.5;
     logoNatalNet.scale.set(0.5,0.5,0.5);
     logoNatalNet.visible = false;
