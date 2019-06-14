@@ -38,11 +38,6 @@ console.log(controls)
 var light = new THREE.HemisphereLight( 0xffffbb, 0x080820, 2 );
 scene.add( light );
 
-// var geometry = new THREE.BoxGeometry( 1, 1, 1 );
-// var material = new THREE.MeshBasicMaterial( {color: 0x00ff00} );
-// var cube = new THREE.Mesh( geometry, material );
-// scene.add( cube );
-
 camera.position.z = 10;
 
 
@@ -119,8 +114,8 @@ function addPrefabs(){
     logoTeam = new THREE.Mesh(tempTeam.geometry, tempTeam.material);
     logoTeam.rotation.x = Math.PI/2;
     logoTeam.name = "logoTeam";
-    logoTeam.position.x = -6;
     logoTeam.position.y = -3.5;
+    logoTeam.position.x = -12;
     logoTeam.scale.set(0.5,0.5,0.5);
     logoTeam.visible = false;
     scene.add(logoTeam);
@@ -131,7 +126,7 @@ function addPrefabs(){
     logoNatalNet.rotation.x = Math.PI/2;
     logoNatalNet.name = "logoNatalNet";
     scene.add(logoNatalNet);
-    logoNatalNet.position.x = -8.5;
+    logoNatalNet.position.x = -14;
     logoNatalNet.position.y = -3.5;
     logoNatalNet.scale.set(0.5,0.5,0.5);
     logoNatalNet.visible = false;
