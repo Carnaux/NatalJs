@@ -311,6 +311,10 @@ function onDocumentKeyDown(event) {
     let keyCode = event.which;
     if (keyCode == 13) {
         nextStage(); 
+    }else if (keyCode == 65) {
+        window.open("https://viewer.autodesk.com/");
+    }else if (keyCode == 83) {
+        window.open("https://www.sketchup.com/pt-BR/plans-and-pricing/sketchup-free");
     }
 };
 
@@ -339,6 +343,7 @@ function nextStage(){
     }else if(stages == 1){
         stage2();
         window.open("https://threejs.org/");
+        
         stages++;
     }else{
         logo3.visible = false;
