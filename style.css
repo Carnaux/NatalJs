@@ -1,0 +1,14 @@
+#renderDiv{
+    display: none;
+}
+
+#initial{
+    display: none;
+}
+#advBt{
+    font-size: 30px;
+    position: absolute;
+    right: 10px;
+    top: 50vh;
+    display: none;
+}
