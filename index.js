@@ -315,6 +315,9 @@ function onDocumentKeyDown(event) {
         window.open("https://viewer.autodesk.com/");
     }else if (keyCode == 83) {
         window.open("https://www.sketchup.com/pt-BR/plans-and-pricing/sketchup-free");
+    }else if(keyCode == 86){
+        renderDiv.style.display = "none";
+        document.getElementById("videoDiv").style.display = "block";
     }
 };
 

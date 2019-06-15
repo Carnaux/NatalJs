@@ -12,3 +12,8 @@
     top: 50vh;
     display: none;
 }
+#videoDiv{
+    width: 50%;
+    height: 50%;
+    display: none;
+}
